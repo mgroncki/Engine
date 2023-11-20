@@ -30,7 +30,7 @@ using boost::timer::cpu_timer;
 #ifdef ORE_ENABLE_PARALLEL_UNIT_TEST_RUNNER
 #include <test-suite/paralleltestrunner.hpp>
 #else
-#include <boost/test/included/unit_test.hpp>
+#include <boost/test/unit_test.hpp>
 #endif
 #include <boost/test/parameterized_test.hpp>
 #include <boost/test/test_tools.hpp>
